@@ -19,7 +19,7 @@ The target Notion database must have at least these 3 properties named exactly a
 ```
 Property Name	             Type	          Purpose
 Task	                     Title	          Event/task name
-Due Date	             Date	           Date (or datetime) for the event
+Due Date	             Date	          Date (or datetime) for the event
 Shared ID	             Rich Text	          Unique ID to track sync status
 ```
 Alternatively, you can name the properties whatever you want but you have to make appropriate changes to the python code as well. 
