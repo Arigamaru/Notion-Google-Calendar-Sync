@@ -40,3 +40,6 @@ Matching of events is done using a Shared ID as the primary logic, but utilises 
 
 Events without time are treated as all-day events (currently trying to fix). Events with time are patched using UTC unless explicitly defined (please change this depending on your timezone).
 
+## Code Run
+Run the code using `streamlit python file_name.py`
+
