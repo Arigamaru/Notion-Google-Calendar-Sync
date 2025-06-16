@@ -34,9 +34,9 @@ Two local cache files will be created:
 1. `sync_cache.json` stores last-known synced states so that edits can be tracked (not fully developed)
 2. `sync_settings.json` optionally stores tokens and database info (if the user checks the 'Remember Credentials' button).
 
-If a title or date is changed in Notion or Google Calendar, the change is pushed both ways (currently fixing bugs with duplication of events in Google Calendar after events from Google Caledar were synced to Notion and back).
+If a title or date is changed in Notion or Google Calendar, the change is pushed both ways.
 
-Matching of events is done using a Shared ID as the primary logic, but utilises also title + date fallback logic. Without Shared IDs everytime a sync is performed all events get duplicated. 
+Matching of events is done using a Shared ID as the primary logic, but utilises also title + date fallback logic. Without Shared IDs everytime a sync is performed all events get duplicated, so make sure this is text field is in your Notion database. Shared IDs for Google Calendar will be stored in the events' descriptions. 
 
 Events without time are treated as all-day events (currently trying to fix). Events with time are patched using UTC unless explicitly defined (please change this depending on your timezone).
 
