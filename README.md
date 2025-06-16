@@ -6,7 +6,7 @@ You will require all python packages utilised in this code. Download them using 
 
 ## Required Files and Inputs
 ### Google OAuth Credentials
-In order to use this code you will have to establish your own [Google OAuth 2.0 client](https://console.cloud.google.com/welcome) (create it under "Credentials" → "Create OAuth client ID") and then download the client secret .json file. Currently this code only supports only "Desktop App" clients. Rename this file to client_info.json file and upload it into the same directory as the code. 
+In order to use this code you will have to establish your own [Google OAuth 2.0 client](https://console.cloud.google.com/welcome) (create it under "Credentials" → "Create OAuth client ID") and then download the client secret .json file. Currently this code only supports "Desktop App" clients. Rename this file to client_info.json file and upload it into the app once launched. 
 
 ### Notion API Key
 Create a [Notion integration](https://www.notion.so/my-integrations) and then paste the Internal Integration Secret (API Key) into the "Notion API Key" field. It is necessary for you to link this integration to your Notion calendar database (click the three dots in your database and press "Connections" at the very bottom to add your integration). This is necessary because the integration must have access to the specific Notion database and capabilities to read and update.
