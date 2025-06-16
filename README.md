@@ -1,5 +1,5 @@
 # Notion-Google-Calendar-Sync
-This app is able to sync your notion database calendars and google calendars. PLease read below to see how to use it.
+This app is able to sync your notion database calendars and google calendars. Please read below to see how to use it.
 
 ## Software Requirements
 You will require all python packages utilised in this code. Download them using the `pip install` command (or pip3 depending on your environment). Most probably if you already worked with python you will only need to install the packages as follows: `pip install streamlit notion-client google-auth-oauthlib google-api-python-client`
